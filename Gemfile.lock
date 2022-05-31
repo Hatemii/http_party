@@ -72,6 +72,7 @@ GEM
     byebug (11.1.3)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
+    csv (3.2.3)
     debug (1.5.0)
       irb (>= 1.3.6)
       reline (>= 0.2.7)
@@ -97,6 +98,7 @@ GEM
     io-console (0.5.11)
     irb (1.4.1)
       reline (>= 0.3.0)
+    json (2.6.2)
     loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -190,10 +192,12 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   byebug
+  csv
   debug
   excon
   faraday
   httparty
+  json
   puma (~> 5.0)
   rails (~> 7.0.3)
   rest-client
@@ -201,7 +205,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.0.4p208
+   ruby 3.0.1p64
 
 BUNDLED WITH
    2.2.33

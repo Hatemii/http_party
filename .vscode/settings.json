@@ -4,5 +4,7 @@
     "editor.selectionBackground": "#696969",
     "editor.selectionHighlightBackground": "#424242",
     "terminal.foreground": "#ffffff"
-  }
+  },
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrains Mono"
 }
